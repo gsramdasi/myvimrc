@@ -1,7 +1,7 @@
 """""""""""""""""
 " Script vars
 """""""""""""""""
-let s:script_dir=expand('<sfile>:p:h')
+let s:script_dir=expand('<sfile>:p:h:h').'/bin'
 
 """""""""""""""""
 " Basic Stuff
