@@ -100,7 +100,7 @@ endfunction
 command CS call Tagify()
 
 """""""""""""""""""""""""""""""""""""""""""""""
-" Awesome Stuff! Part 1: Get function comment
+" Get function comment
 """""""""""""""""""""""""""""""""""""""""""""""
 
 func GetFunctionArgNames()
@@ -174,10 +174,10 @@ endfunc
 nnoremap FF :call GetFunctionComment()<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Awesome Stuff! Part 2: Get functions in current file
+" Get functions in current file
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Use the following command to generate a tags file extags.txt:
+" Use the following command to generate a tags file:
 "   ctags --fields="nK" -R . > extags.txt
 " This can be run separately, since vim always reads the file, it doesn't need to re-read it.
 " includes line numbers).
