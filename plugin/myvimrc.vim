@@ -7,9 +7,9 @@ let s:script_dir=expand('<sfile>:p:h:h').'/bin'
 " Basic Stuff
 """""""""""""""""
 
-" set nonu
-set relativenumber
-set nu
+set nonu
+" set relativenumber
+" set nu
 set ai
 
 " Allow tree navigation of dirs
