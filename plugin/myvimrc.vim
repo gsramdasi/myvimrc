@@ -86,7 +86,7 @@ nmap <C-w>d O// TODO Gaurav: <Esc>A
 
 function CS_Reset(a, b)
     execute "cs reset"
-    echo "Tags and Cscope are ready!"
+    call popup_create('Tags and Cscope are ready!', {'border': [], 'padding': [1], 'time': 2000} )
 endfunction
 
 function Tagify()
