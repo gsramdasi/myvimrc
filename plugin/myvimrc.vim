@@ -12,6 +12,10 @@ set nonu
 " set nu
 set ai
 
+" z-Enter should position current line at the top, without leaving any margin.
+" The default may be 5.
+set scrolloff=0
+
 " Allow tree navigation of dirs
 let g:netrw_liststyle = 3
 
@@ -31,6 +35,7 @@ set csto=1
 " Use find across the project
 " set path=$PWD/**
 cab f find
+cab S cs find s
 
 " Indentation
 au FileType python  set expandtab
